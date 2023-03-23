@@ -10,10 +10,10 @@ TableSquare(number);
 
 void TableSquare(int num)
 {
-int count = 1;
-while (count <= num)
-{
-Console.WriteLine($" {count,3} {count * count, 5} ");
-count++;
-}
+    int count = 1;
+    while (count <= num)
+    {
+        Console.WriteLine($" {count,3} {count * count,5} ");
+        count++;
+    }
 }
